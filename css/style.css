@@ -1,0 +1,123 @@
+
+  body {
+    width: 600px;
+    margin: 50px auto;
+    padding: 0;
+    text-align: left;
+    font-size: 32px;
+    background-color:#f95d8e;
+    font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+  }
+  fieldset{
+    border:unset;
+    padding: 30px;
+    background-color: #fff;
+    border-radius:30px;
+  }
+  fieldset legend{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f40c65;
+    padding-top: 70px;
+  }
+  fieldset legend span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+  }
+  fieldset p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fe8930;
+  }
+  fieldset ul{
+    padding-inline-start: 0;
+    margin-block-start: 0;
+  }
+  fieldset li{
+    list-style-type: none;
+  }
+  fieldset input{
+    border: unset;
+    border-radius: 10px;
+    background-color: #ffd61a;
+  }
+  fieldset div{
+    margin-bottom: 20px;
+  }
+  fieldset .text{
+    border: unset;
+    border-radius: 10px;
+    background-color: #fef1b8;
+    width: 400px;
+  }
+  fieldset .btn{
+    text-align: center;
+  }
+  fieldset button{
+    width: 200px;
+    background-color: #fd0390;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px auto 0;
+    font-weight: bold;
+    max-width: 500px;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 300ms;
+  }
+  fieldset .list-btn{
+    width: 200px;
+    display: inline-block;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .result ul{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fef1b8;
+    border-radius:20px;
+  }
+
+  .result ul li{
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .result ul li:first-child{
+    color: #ee3e3b;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .result ul li:last-child{
+    margin-bottom: 0;
+    word-break: break-all;
+  }
+  .result ul .name{
+    color: #4d5057;
+    font-weight: bold;
+  }
+  .result ul li:nth-child(2) span{
+    display: inline-block;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
